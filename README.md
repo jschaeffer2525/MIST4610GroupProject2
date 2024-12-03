@@ -44,7 +44,7 @@ A query like this might be helpful in that it allows the hospital staff to searc
 
 This Query returns the number of appointments per month within a certain range, where the number of appointments must be greater than 25. The month function selects the month from “ApptDate”, Count(*) counts the number of appointments per month, the extract function in WHERE takes the month out of “ApptDate” and makes the output of the query between the second half of the year, and finally, the having statement makes our output only the months that have more than 25 appointments.
 
-A query like this could be helpful in that the user could see some of the busiest months for appointments for a part of the year. That way we prepare inventory for that month and also schedule the most number of employees to ensure we are not understaffed. 
+A query like this could be helpful in that the user could see some of the busiest months for appointments for a part of the year. That way we prepare inventory for that month and also schedule the most number of employees to ensure we are not understaffed. This can also be used to see if we meet our fixed costs for staying open, if we know that our breakeven is 25 appointments then we can see which months we will be in the green or red.
 
 ## Query 3: 
 <img width="1202" alt="image" src="https://github.com/user-attachments/assets/3c6fca40-eaa7-4336-a5f4-65a22ec3b27d">
